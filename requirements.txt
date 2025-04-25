@@ -1,0 +1,8 @@
+Flask
+pymysql
+scikit-learn
+imblearn
+pandas
+openpyxl
+folium
+python-dotenv
