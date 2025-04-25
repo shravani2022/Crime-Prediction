@@ -17,7 +17,7 @@ app.config['SECRET_KEY'] = "crime"
 #database connection
 
 def data_base():
-    db=pymysql.connect(host="localhost",user="root", password="",database="crime_hotspot", port=3306)
+    db=pymysql.connect(host="localhost",user="root", password="root",database="crime_hotspot", port=3306)
     cur=db.cursor()
     return db,cur
 
