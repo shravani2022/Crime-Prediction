@@ -17,9 +17,16 @@ app.config['SECRET_KEY'] = "crime"
 #database connection
 
 def data_base():
-    db=pymysql.connect(host="localhost",user="root", password="Root",database="crime_hotspot", port=3306)
-    cur=db.cursor()
-    return db,cur
+    db = pymysql.connect(
+        host="mysql.railway.internal",
+        user="root",
+        password="RTUNjyUIfVeoivANuhHSvEIkvUxKuDAN",
+        database="railway",
+        port=50684,
+        ssl={"ssl": {}}
+    )
+    cur = db.cursor()
+    return db, cur
 
 #Index page
 @app.route('/')
