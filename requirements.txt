@@ -7,3 +7,4 @@ openpyxl
 folium
 python-dotenv
 gunicorn
+ssl
