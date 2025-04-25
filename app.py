@@ -10,6 +10,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import GradientBoostingClassifier
 import folium
 import openpyxl
+import ssl
 
 app=Flask(__name__)
 app.config['SECRET_KEY'] = "crime"
