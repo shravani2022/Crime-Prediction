@@ -18,7 +18,7 @@ app.config['SECRET_KEY'] = "crime"
 
 def data_base():
     db = pymysql.connect(
-        host="mysql://root:RTUNjyUIfVeoivANuhHSvEIkvUxKuDAN@crossover.proxy.rlwy.net:49815/railway",
+        host="crossover.proxy.rlwy.net",
         user="root",
         password="RTUNjyUIfVeoivANuhHSvEIkvUxKuDAN",
         database="railway",
