@@ -23,7 +23,7 @@ def data_base():
         user="root",
         password="RTUNjyUIfVeoivANuhHSvEIkvUxKuDAN",
         database="railway",
-        port=50684,
+        port=3306,
         ssl={"ssl": {}}
     )
     cur = db.cursor()
